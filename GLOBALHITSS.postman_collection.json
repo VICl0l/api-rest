@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "472dfb85-4412-4abe-9bf3-031d5aba9c50",
+		"name": "GLOBALHITSS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16149591"
+	},
+	"item": [
+		{
+			"name": "POST-SP",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/producto/insertAndList?idProducto=1&nombre=ProductoX&fec_registro=2024-05-30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"producto",
+						"insertAndList"
+					],
+					"query": [
+						{
+							"key": "idProducto",
+							"value": "1"
+						},
+						{
+							"key": "nombre",
+							"value": "ProductoX"
+						},
+						{
+							"key": "fec_registro",
+							"value": "2024-05-30"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
